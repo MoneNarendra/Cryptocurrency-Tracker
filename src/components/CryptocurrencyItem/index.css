@@ -1,0 +1,32 @@
+.item-container {
+  background-color: #0000;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.currency-con {
+  display: flex;
+  align-items: center;
+}
+
+.currency-logo {
+  height: 15px;
+}
+
+@media screen and (min-width: 767px) {
+  .currency-logo {
+    height: 30px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
